@@ -1,0 +1,373 @@
+/*
+
+x = 73
+y = 98
+  
+*/
+
+/*Every id is composed of two parts:
+
+========= card & suit ==========
+
+==> cards:
+
+a = ace
+two
+tri = three
+four
+fiv = five
+six
+sevn = seven
+eig = eight
+nin = nine
+ten
+j = jack
+q = queen
+k = king
+
+==> suits
+
+tr = clubs
+sp = spades
+hr = hearts
+dm = diamonds
+
+
+*/
+
+/*no card selected*/
+
+#none {
+    width: 74px;
+    height: 98px;
+    background: url(../assets/cardback.png) 0px 0px;
+    cursor: pointer;
+    float: left;
+}
+
+#other {
+    width: 74px;
+    height: 98px;
+    background: url(../assets/cardback.png) 0px 0px;
+    float: right;
+}
+
+/*CLUBS*/
+
+#a_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") 0px 0px;
+}
+
+#two_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -73px 0px;
+}
+
+#tri_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -146px 0px;
+}
+
+#four_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -219px 0px;
+}
+
+#fiv_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -292px 0px;
+}
+
+#six_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -365px 0px;
+}
+
+#sevn_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -438px 0px;
+}
+
+#eig_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -511px 0px;
+}
+
+#nin_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -584px 0px;
+}
+
+#ten_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -657px 0px;
+}
+
+#j_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -730px 0px;
+}
+
+#q_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -803px 0px;
+}
+
+#k_tr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -876px 0px;
+}
+
+/*SPADES*/
+
+#a_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") 0px -98px;
+}
+
+#two_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -73px -98px;
+}
+
+#tri_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -146px -98px;
+}
+
+#four_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -219px -98px;
+}
+
+#fiv_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -292px -98px;
+}
+
+#six_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -365px -98px;
+}
+
+#sevn_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -438px -98px;
+}
+
+#eig_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -511px -98px;
+}
+
+#nin_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -584px -98px;
+}
+
+#ten_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -657px -98px;
+}
+
+#j_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -730px -98px;
+}
+
+#q_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -803px -98px;
+}
+
+#k_sp {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -876px -98px;
+}
+
+/*HEARTS*/
+
+#a_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") 0px -196px;
+}
+
+#two_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -73px -196px;
+}
+
+#tri_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -146px -196px;
+}
+
+#four_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -219px -196px;
+}
+
+#fiv_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -292px -196px;
+}
+
+#six_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -365px -196px;
+}
+
+#sevn_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -438px -196px;
+}
+
+#eig_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -511px -196px;
+}
+
+#nin_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -584px -196px;
+}
+
+#ten_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -657px -196px;
+}
+
+#j_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -730px -196px;
+}
+
+#q_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -803px -196px;
+}
+
+#k_hr {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -876px -196px;
+}
+
+/*DIAMONDS*/
+
+#a_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") 0px -294px;
+}
+
+#two_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -73px -294px;
+}
+
+#tri_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -146px -294px;
+}
+
+#four_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -219px -294px;
+}
+
+#fiv_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -292px -294px;
+}
+
+#six_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -365px -294px;
+}
+
+#sevn_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -438px -294px;
+}
+
+#eig_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -511px -294px;
+}
+
+#nin_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -584px -294px;
+}
+
+#ten_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -657px -294px;
+}
+
+#j_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -730px -294px;
+}
+
+#q_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -803px -294px;
+}
+
+#k_dm {
+    width: 74px;
+    height: 98px;
+    background: url("../assets/cards.png") -876px -294px;
+}
