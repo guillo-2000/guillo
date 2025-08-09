@@ -1,1 +1,0 @@
-/summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:iron_pickaxe", count:1, components:{"minecraft:can_break":{predicates:[{blocks:"stone"}]}}}}
