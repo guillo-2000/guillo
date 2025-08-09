@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gamemode select</title>
+
+        <link rel="icon" href="../brain/assets/favicons/pokericon.ico" type="image/x-icon">
+
+        <style>
+            body {
+                background-image: url(../brain/assets/pokerbg.png);
+                color: white;
+            }
+
+            a {
+                color: white;
+                text-shadow: blue 1px 1px;
+            }
+
+            .poker {
+                width: 350px;
+                border: 2px white solid;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h1>Select your gamemode: </h1>
+            <details>
+                <summary>Extra info that's important to know</summary>
+                <p>Jacks, Queens and Kings have a value of 10, but by definition, Kings are greater than Queens, and Queens are greater than Jacks</p>
+            </details>
+            <br />
+            <a target="_blank" href="highcard.html">High card</a>
+            <p>Click the left card, if it is greater than the other card, you win; aces have a value of 11</p>
+            <br />
+            <br />
+            <a target="_blank" href="lowcard.html">Low card</a>
+            <p>Click the left card, if it is lower than the other card, you win; aces have a value of 1</p>
+            <br />
+            <br />
+            <img src="../brain/assets/walkingcards.gif" alt="A bunch of cards" class="poker">
+        </div>
+    </body>
+</html>

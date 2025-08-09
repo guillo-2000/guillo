@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Low card</title>
+
+        <link href="../brain/css/cards.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="../brain/assets/favicons/pokericon.ico" type="image/x-icon">
+
+        <style>
+            body {
+                background-image: url(../brain/assets/pokerbg.png);
+                color: white;
+            }
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .center {
+                display: flex;
+                justify-content: center;
+                float: none;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="center">
+            <h1>LOW CARD</h1>
+        </div>
+
+        <div class="center">
+            <h2 id="result">...</h2>
+            
+        </div>
+
+        <div class="center">
+            <h4 id="refresh"></h4>
+        </div>
+
+        <div class="left">
+            <img id="none" onclick="randomCard()">
+            <p id="cardname"></p>
+        </div>
+
+
+        <div class="right">
+            <img id="other">
+            <p id="othername"></p>
+            
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        
+
+        <script src="../brain/js/cards2.js"></script>
+    </body>
+</html>

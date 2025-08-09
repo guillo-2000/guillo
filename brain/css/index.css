@@ -1,0 +1,79 @@
+/*scratch*/
+
+.scr {
+  background-color: #FFAB19;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*youtube*/
+
+.yt {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*itch.io*/
+
+.itch {
+  background-color: #fa5c5c;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Github*/
+
+.github {
+  background-color: #0d1117;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Button hovering*/
+
+#social {
+  transition-duration: 0.4s;
+  border: 2px solid white;
+}
+
+#social:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+/*Image on the side*/
+
+.side {
+  float: right;
+  width: 33.3%;
+}
