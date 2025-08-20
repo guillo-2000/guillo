@@ -1,7 +1,7 @@
 /*scratch*/
 
-.scr {
-  background-color: #FFAB19;
+.bsky {
+  background-color: #3454C2;
   border: none;
   color: white;
   padding: 5px 12px;
@@ -76,4 +76,5 @@
 .side {
   float: right;
   width: 33.3%;
+
 }
